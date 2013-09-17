@@ -23,5 +23,30 @@ and open the template in the editor.
     padding-right: 20px; 
     top:8px;
     vertical-align: middle;
-   
+
 }
+[class^="minicon-"],[class*=" minicon-"] {
+    background-image: url(../img/sprites/icon-mini.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    margin: 3px 8px 0px 5px;
+    width: 18px;
+    vertical-align: bottom;
+}
+[class^="minicon-white"],[class*=" minicon-white"] {
+    background-image: url(../img/sprites/icon-white-mini.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    margin: 0px 4px 0px 0px;
+    width: 18px;
+    vertical-align: bottom;
+}
+.minicon-white-calendar{background-position-x: 0;}
+.minicon-group{
+    background-position-x: -21px;
+    width: 25px;
+}
+.minicon-place{background-position-x: -46px;}
+.minicon-clock{background-position-x: -66px;}

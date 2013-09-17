@@ -87,3 +87,47 @@ and open the template in the editor.
 .accordion .file-ppt{background-color:#e67e22;}
 .accordion .file-txt{background-color:#7f8c8d;}
 .accordion .file-acc{background-color:#e74c3c;}
+
+
+/*Blocks*/
+.block-table{
+
+    list-style: none;
+    margin:0;
+    padding:0;
+    width: 100%;
+
+}
+.block-table > li > div {font-size:.8em;}
+.block-table .block-label{
+    background-color:#333;
+    color:#efefef;  
+    padding:1px;        
+    padding: 0px 24px 5px 24px;
+}
+.block-label h6{
+    margin-top:-2px;
+    display: inline;
+}
+.block-menu{
+
+    padding: 10px 24px;
+}
+.block-menu > div > h3{
+    color:#333;
+    display: inline;
+}
+.block-menu{border-bottom:1px solid rgba(0,0,0,0.2);}
+
+.btn-full{
+    color:#333;
+    background: url('../img/icons/caret-right.png') no-repeat ;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+    background-position: 96% 50%;
+    font-size:1.1em;
+    float:left;
+    padding: 10px 24px;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+}

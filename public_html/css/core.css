@@ -52,3 +52,8 @@ h3{font-weight: inherit;}
 
 .pull-right{float: right;}
 .text-center{text-align: center;}
+.description{
+    font-size:.85em;
+    color:#666;
+    font-style: italic;
+}

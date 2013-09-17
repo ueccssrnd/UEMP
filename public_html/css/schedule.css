@@ -1,0 +1,40 @@
+.schedule-container{
+    box-sizing: content-box;
+    display: table;
+    position: relative;
+    width: 100%;
+}
+.sched-left-container{
+    border-right:1px solid rgba(50,50,50,0.1);
+    display: table-cell;
+    vertical-align: middle;
+    width: 35%;
+    text-align: center;
+}
+.sched-right-container{
+    display: table-cell;
+    text-align: center;
+    width: 65%;
+}
+
+.sched-info{
+    display:block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 5px;
+}
+.schedule-container h3{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color:#333;
+}
+.schedule-container h5{
+    display: inline;
+    font-size: 1em;
+    font-weight: lighter;
+}
+@media screen and (max-width: 320px){
+    .sched-left-container{
+        text-align: left;
+    }
+}
