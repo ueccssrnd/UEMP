@@ -3,14 +3,14 @@
     color:#333;
     display:table;
 }
-.subject,.unit,.grade{
+.subject,.unit{
     display: table-cell;
 }
 .subject{
-    width:60%;
+    width:80%;
     color:#c0392b;
 }
-.unit, .grade{
+.unit{
     width:20%;
     vertical-align: middle;
     border-left:1px solid rgba(50,50,50,0.1)

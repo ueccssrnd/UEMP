@@ -31,7 +31,7 @@ body{
     vertical-align: middle;
     white-space: nowrap;
 }
-
+.float-left{float:left;}
 /***Typography***/
 h1,h2,h3,h4,h5,h6{
     margin:0;
