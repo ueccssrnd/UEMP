@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible
+
+# TEAM
+
+    <Adrian Enriquez> -- <front-end Developer> -- <@eydreeyawn>
+
+# THANKS
+
+    <name>

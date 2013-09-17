@@ -1,0 +1,60 @@
+.ledger-row > h3,.ledger-row > h4,.ledger-row > p{
+    display:inline;
+}
+.ledger-row > h3{
+    font-size:1.2em;
+    font-weight: bolder;
+    color:#c0392b;
+}
+.ledger-row > h4{
+    font-weight:bolder;
+    color:#000;
+    text-align: right;
+    float:right;
+}
+.ledger-row > h5{
+    color:#e67e22;
+    margin-bottom: 5px;
+}
+
+.ledger-row > span{
+    color:#777;
+    font-size:.9em;
+    font-weight:lighter;
+    margin-left:5px;
+}
+.block-table{
+    list-style: none;
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+.block-table > li > div {font-size:.8em;}
+.block-table .block-label{
+    background-color:#333;
+    color:#efefef;  
+    padding:1px;
+    padding: 5px 24px;
+}
+.block-menu{
+    padding: 10px 24px;
+}
+.block-menu > div > h3{
+    color:#333;
+    display: inline;
+}
+.block-menu{border-bottom:1px solid rgba(0,0,0,0.2);}
+.ledger-amount{float:right;}
+
+.btn-full{
+    color:#333;
+    background: url('../img/icons/caret-right.png') no-repeat ;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+    background-position: right 24px;
+    font-size:1.1em;
+    float:left;
+    padding: 10px 24px;
+    text-decoration: none;
+    width: 100%;
+
+}

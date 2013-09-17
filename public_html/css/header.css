@@ -1,0 +1,33 @@
+/* 
+    Created on : Sep 5, 2013, 2:04:34 PM
+    Author     : Adrian Enriquez
+*/
+
+.navbar{
+    background:#333;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+    border-top:1px solid rgba(255,255,255,0.5);
+    display:block;
+    height:50px;
+    position: fixed;
+    width:100%;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+}
+.navbar > div{
+    display:block;
+    float:left;
+}
+.nav-btn{
+    padding: 14px 5px 5px 5px;
+}
+.nav-logo{
+    background: #c0392b;
+    padding-top:2px;
+    text-align: center;
+    height:49px;
+}
+.nav-logo:hover{background: #9f2013}
+.nav-title{
+    color:#fff;
+    padding: 7.5px 0px 0px 7px;
+}

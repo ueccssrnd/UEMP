@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 5, 2013, 9:28:45 PM
+    Author     : Adrian
+*/
+[class^="icon-"],[class*=" icon-"] {
+    background-repeat: no-repeat;
+    display:inline-block;
+    margin:1px 2px 0 0;
+    position:relative;
+    height:14px;
+    top:1px;
+    width:14px;
+
+}
+.icon-dl{background-image: url('../img/icons/mini/dl.png');}
+.icon-caret-down{
+    background-image: url('../img/icons/caret-down.png');
+    padding-right: 20px; 
+    top:8px;
+    vertical-align: middle;
+   
+}

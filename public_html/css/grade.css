@@ -1,0 +1,17 @@
+.grade-container{
+    clear: left;
+    display: block;
+}
+.subject,.unit,.grade{
+    float:left;
+}
+.subject{
+    width:50%;
+}
+.unit, .grade{
+    width:25%;
+}
+.unit-label{
+    display:block;
+    font-size: .7em;
+}

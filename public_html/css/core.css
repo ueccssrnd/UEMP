@@ -1,0 +1,54 @@
+/* 
+    Created on : Sep 5, 2013, 2:04:34 PM
+    Author     : Adrian Enriquez
+*/
+
+*{font-family:"Segoe UI",sans-serif;}
+body{
+    margin:0;
+    padding:0;
+}
+.content{
+    padding-top:52px;
+    background-color:#f0f0f0;
+}
+.container{
+    margin:auto;
+    width:95%;
+}
+.badge {
+    background-color: #c0392b;
+    border-radius: 10px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    margin:0 0 4px 4px;
+    min-width: 10px;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/***Typography***/
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+/*Font-sizes*/
+h1{font-size:1.7em;}
+h2{font-size:1.6em;}
+h3{font-size:1.5em;}
+h4{font-size:1em;}
+h5{font-size:.8em;}
+h6{font-size:.7em;}
+
+h2{font-weight:lighter;}
+h3{font-weight: inherit;}
+
+.base{clear:left;}
+.bold{font-weight: bold;}
+
+.pull-right{float: right;}
+.text-center{text-align: center;}

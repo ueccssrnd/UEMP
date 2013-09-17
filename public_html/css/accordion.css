@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 5, 2013, 4:19:42 PM
+    Author     : Adrian Enriquez
+*/
+
+.accordion {
+    list-style: none;
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+.accordion > li > h3 {
+    color:#333;
+    display: block;
+    background-color: #FFF;
+    cursor: pointer;
+    padding: 10px 10px 10px 24px;
+    list-style: none;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+}
+.accordion ul {
+    list-style: none;
+    padding:0;
+}
+.accordion ul{
+    display: none;
+}
+.accordion > ul > li {
+    cursor: auto;
+    background-color: #fff;
+    padding: 0 0 0 7px;
+}
+.accordion a {
+    text-decoration: none;
+}
+.accordion .accord-label{
+    background-color:#333;
+    color:#efefef;
+    padding:1px;
+    padding: 5px 0 5px 24px;
+    /*border-bottom:2px solid #c0392b;*/
+}
+.accordion .accord-table{
+    background-color:#e74c3c;
+    color:#efefef;
+    width:50%;
+    float:left;
+    text-align:center;
+    padding: 5px 0px;
+    border-left: 1px solid #efefef;
+    margin-right:-1px;
+}
+.accordion .accord-table:first-child{
+    border-left:none;
+}
+.accordion .accord-submenu{
+    background-color:#efefef;
+    padding:12px 24px;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+}
+.accordion .btn-dl{
+    background-color:#7f8c8d;
+    border-radius: 10px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 9px;
+    line-height: 1;
+    margin-top:-3px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+
+}
+/*File Backgrounds*/
+.accordion .file-doc{background-color:#3498db;}
+.accordion .file-excel{background-color:#2ecc71;}
+.accordion .file-ppt{background-color:#e67e22;}
+.accordion .file-txt{background-color:#7f8c8d;}
+.accordion .file-acc{background-color:#e74c3c;}
